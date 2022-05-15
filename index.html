@@ -1,0 +1,2163 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Machine Learning - Comparison</title>
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/ntnuerc.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <script src="https://daybrush.com/scenejs/release/latest/dist/scene.min.js"></script>
+		
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+        <script src="js/ntnu.js"></script>
+    </head>
+    <body>
+        <div class="reveal">
+        <div class="slides">
+            
+<section id="first" data-state="first">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1> Machine Learning - Comparison</h1>
+
+   <div class="author" style="text-align:center;">
+    
+<p>
+      Jacky Baltes<br>
+      National Taiwan Normal University<br>
+      Taipei, Taiwan<br>
+      <a href="mailto:jacky.baltes@ntnu.edu.tw">jacky.baltes@ntnu.edu.tw</a><br>
+</p>
+
+   </div>
+   <div class="date">
+    15 May 2022
+   </div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-54b272cb-3ca7-4a10-9c4e-8a7758b0b647" ><span id="id-54b272cb-3ca7-4a10-9c4e-8a7758b0b647"><img id="img-id-54b272cb-3ca7-4a10-9c4e-8a7758b0b647"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-5f701a32-8826-45e5-a5cf-e427032e1b9d" ><span id="id-5f701a32-8826-45e5-a5cf-e427032e1b9d"><img id="img-id-5f701a32-8826-45e5-a5cf-e427032e1b9d" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00003_frag_00001" data-state="slide_00003_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>random<span style="color: #666666">.</span>seed(<span style="color: #666666">20220515</span>)
+np<span style="color: #666666">.</span>random<span style="color: #666666">.</span>seed(<span style="color: #666666">20220515</span>)
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-46b3442d-9bc9-43e8-8ceb-5c197323f605" ><span id="id-46b3442d-9bc9-43e8-8ceb-5c197323f605"><img id="img-id-46b3442d-9bc9-43e8-8ceb-5c197323f605"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-0599fd55-38a9-48cd-81aa-0a1bcaa401e8" ><span id="id-0599fd55-38a9-48cd-81aa-0a1bcaa401e8"><img id="img-id-0599fd55-38a9-48cd-81aa-0a1bcaa401e8" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00004_frag_00001" data-state="slide_00004_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-f0ab6972-cf3f-4d47-a4dd-0d81a3e1a994" ><span id="id-f0ab6972-cf3f-4d47-a4dd-0d81a3e1a994"><img id="img-id-f0ab6972-cf3f-4d47-a4dd-0d81a3e1a994"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-5de4571b-5daa-410d-9ed2-400cd2b3ac29" ><span id="id-5de4571b-5daa-410d-9ed2-400cd2b3ac29"><img id="img-id-5de4571b-5daa-410d-9ed2-400cd2b3ac29" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00005_frag_00001" data-state="slide_00005_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Sample Domain</h1>
+
+<span id="id-f1846147-1bc2-4368-a1bf-d8c54de3b4d3" ><span id="id-f1846147-1bc2-4368-a1bf-d8c54de3b4d3"><img id="img-id-f1846147-1bc2-4368-a1bf-d8c54de3b4d3"     src="assets/images/i1.svg"/></span>
+</span>
+
+
+<div class="jb-text">
+<p>The training data that you received is shown above. Points are divided into two classes 
+(binary classification problem)</p>
+<p>Apply logisitic regression to learn the correct model</p>
+<p>Compare the performance of SVM, decision trees, and logitistic regression</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-224e42a7-2fda-4724-8adc-fe84fd8c07f8" ><span id="id-224e42a7-2fda-4724-8adc-fe84fd8c07f8"><img id="img-id-224e42a7-2fda-4724-8adc-fe84fd8c07f8"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-3be53895-5fd0-4909-8063-4f32e22b8239" ><span id="id-3be53895-5fd0-4909-8063-4f32e22b8239"><img id="img-id-3be53895-5fd0-4909-8063-4f32e22b8239" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00006_frag_00001" data-state="slide_00006_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Skewed Classes</h1>
+
+
+<div class="jb-text">
+<p>At the moment, we have only 11 examples of class 'red'</p>
+<p>The data is highly skewed</p>
+<p>If my classifier returns class='blue' for all instances, then it will be 
+mostly accurate already</p>
+<p>Overcoming this problem<p>
+<ol>
+<li>Get more or better data</li>
+<li>If that is not possible, data augmentation methods (modifying existing instances by varying some of the attributes)
+may be employed</li>
+<li>It may be sufficient to copy the instances to balance the number of instances per class</p>
+</ol> 
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-58076079-58d3-4404-8387-1694e527acd0" ><span id="id-58076079-58d3-4404-8387-1694e527acd0"><img id="img-id-58076079-58d3-4404-8387-1694e527acd0"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-5c5ebf24-47d8-4f01-8f76-d92bfc402fe6" ><span id="id-5c5ebf24-47d8-4f01-8f76-d92bfc402fe6"><img id="img-id-5c5ebf24-47d8-4f01-8f76-d92bfc402fe6" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00007_frag_00001" data-state="slide_00007_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>n_features <span style="color: #666666">=</span> <span style="color: #666666">2</span>
+n_points <span style="color: #666666">=</span> <span style="color: #666666">50</span>
+
+c, r <span style="color: #666666">=</span> np<span style="color: #666666">.</span>array( [ <span style="color: #666666">-2</span>, <span style="color: #666666">1</span> ] ), <span style="color: #666666">1.5</span>
+
+Xs1 <span style="color: #666666">=</span> ( np<span style="color: #666666">.</span>random<span style="color: #666666">.</span>random( (n_points, <span style="color: #666666">2</span> ) ) <span style="color: #666666">-</span> <span style="color: #666666">0.5</span> ) <span style="color: #666666">*</span> <span style="color: #666666">10</span>
+Xs2 <span style="color: #666666">=</span> ( np<span style="color: #666666">.</span>random<span style="color: #666666">.</span>random( (n_points, <span style="color: #666666">2</span> ) )  ) <span style="color: #666666">*</span> <span style="color: #666666">3</span> <span style="color: #666666">+</span> c <span style="color: #666666">-</span> [r,r]
+Xs <span style="color: #666666">=</span> np<span style="color: #666666">.</span>vstack( ( Xs1, Xs2 ) )
+
+d <span style="color: #666666">=</span> np<span style="color: #666666">.</span>linalg<span style="color: #666666">.</span>norm( Xs <span style="color: #666666">-</span> c, axis<span style="color: #666666">=1</span> )
+
+Ys <span style="color: #666666">=</span> np<span style="color: #666666">.</span>zeros( <span style="color: #008000">len</span>(Xs) )
+Ys[ d <span style="color: #666666">&lt;</span> r ] <span style="color: #666666">=</span> <span style="color: #666666">1</span>
+
+fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+Ys_c <span style="color: #666666">=</span> [ <span style="color: #BA2121">&quot;red&quot;</span> <span style="color: #008000; font-weight: bold">if</span> Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #008000; font-weight: bold">else</span> <span style="color: #BA2121">&quot;blue&quot;</span> <span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>(<span style="color: #008000">len</span>(Xs) ) ]
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Sample Domain (Circle)&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i2 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i2&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-3293f22b-1767-4768-8f10-447183c2e55b" ><span id="id-3293f22b-1767-4768-8f10-447183c2e55b"><img id="img-id-3293f22b-1767-4768-8f10-447183c2e55b"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-b8058aa3-1d7d-474f-8e9e-b2ea4a8ec890" ><span id="id-b8058aa3-1d7d-474f-8e9e-b2ea4a8ec890"><img id="img-id-b8058aa3-1d7d-474f-8e9e-b2ea4a8ec890" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00008_frag_00001" data-state="slide_00008_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Sample Domain (After Getting More Data)</h1>
+
+<span id="id-604e1cec-e96e-4802-9264-4091c6abc3e6" ><span id="id-604e1cec-e96e-4802-9264-4091c6abc3e6"><img id="img-id-604e1cec-e96e-4802-9264-4091c6abc3e6"     src="assets/images/i2.svg"/></span>
+</span>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-0deba477-5668-4dd8-b5c1-5a99cfba2b1a" ><span id="id-0deba477-5668-4dd8-b5c1-5a99cfba2b1a"><img id="img-id-0deba477-5668-4dd8-b5c1-5a99cfba2b1a"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-a7c37917-9ae5-42c6-9f11-2f754347f3ca" ><span id="id-a7c37917-9ae5-42c6-9f11-2f754347f3ca"><img id="img-id-a7c37917-9ae5-42c6-9f11-2f754347f3ca" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00009_frag_00001" data-state="slide_00009_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.linear_model</span> <span style="color: #008000; font-weight: bold">import</span> LogisticRegression
+<span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.metrics</span> <span style="color: #008000; font-weight: bold">import</span> accuracy_score
+
+clf <span style="color: #666666">=</span> LogisticRegression()
+clf<span style="color: #666666">.</span>fit( Xs, Ys)
+Ys_predict <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+acc <span style="color: #666666">=</span> accuracy_score( Ys, Ys_predict )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;Accuracy:&#39;</span>, acc )
+
+class_0 <span style="color: #666666">=</span> <span style="color: #008000">len</span>( Ys[ Ys <span style="color: #666666">==</span> <span style="color: #666666">0</span>] )
+class_1 <span style="color: #666666">=</span> <span style="color: #008000">len</span>( Ys[ Ys <span style="color: #666666">==</span> <span style="color: #666666">1</span>] )
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+Accuracy: 0.69
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-a9a64373-b34f-478f-bd14-a2c48298495c" ><span id="id-a9a64373-b34f-478f-bd14-a2c48298495c"><img id="img-id-a9a64373-b34f-478f-bd14-a2c48298495c"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-149e21d4-0136-4891-b0ab-d0d361c10f76" ><span id="id-149e21d4-0136-4891-b0ab-d0d361c10f76"><img id="img-id-149e21d4-0136-4891-b0ab-d0d361c10f76" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00010_frag_00001" data-state="slide_00010_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Logistic Regression</h1>
+
+<div class="jb-text">
+<p>Applied out of the box logistic regression and found that accuracy is 0.69</p>
+<p>This is an extremely poor result. At the moment, we have 57 instances of type Class 0
+and 43 instances of type Class 1</p>
+<p>This is just slightly better than flipping a coin</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-58920c08-96aa-41de-b2ad-2f0c23a9ad5c" ><span id="id-58920c08-96aa-41de-b2ad-2f0c23a9ad5c"><img id="img-id-58920c08-96aa-41de-b2ad-2f0c23a9ad5c"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-5a824224-6994-4b8b-be36-9adb901e599e" ><span id="id-5a824224-6994-4b8b-be36-9adb901e599e"><img id="img-id-5a824224-6994-4b8b-be36-9adb901e599e" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00011_frag_00001" data-state="slide_00011_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+Ys_c <span style="color: #666666">=</span> []
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>( <span style="color: #008000">len</span>(Ys) ):
+  <span style="color: #008000; font-weight: bold">if</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;blue&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;red&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;green&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;yellow&#39;</span>
+  Ys_c<span style="color: #666666">.</span>append( col )
+    
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Error Analysis&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i3 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i3&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-261db3b9-1fb8-4f1f-8c25-ea76800e9b1a" ><span id="id-261db3b9-1fb8-4f1f-8c25-ea76800e9b1a"><img id="img-id-261db3b9-1fb8-4f1f-8c25-ea76800e9b1a"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-81d48fd7-3c66-47f1-a725-4620d2643388" ><span id="id-81d48fd7-3c66-47f1-a725-4620d2643388"><img id="img-id-81d48fd7-3c66-47f1-a725-4620d2643388" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00012_frag_00001" data-state="slide_00012_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Data Analysis</h1>
+
+<span id="id-27c09d4e-ffed-4a82-b1e0-46f6a3a36c0d" ><span id="id-27c09d4e-ffed-4a82-b1e0-46f6a3a36c0d"><img id="img-id-27c09d4e-ffed-4a82-b1e0-46f6a3a36c0d"     src="assets/images/i3.svg"/></span>
+</span>
+
+
+<div class="jb-text">
+<p>Error analysis: find out which instances are misclassified and why?</p>
+<p>Confusion Matrix</p>
+
+<table style="border:1px">
+<tr>
+<th></th><th>Class 1</th><th>Class 0</th>
+</tr>
+<tr>
+<td>Class 1</td><td>29.00%</td><td>14.00%</td>
+</tr>
+<tr>
+<td>Class 0</td><td>17.00%</td><td>40.00%</td>
+</tr>
+</table>
+
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-5d19b5d9-e02e-451e-83ad-ec883ce4b6c3" ><span id="id-5d19b5d9-e02e-451e-83ad-ec883ce4b6c3"><img id="img-id-5d19b5d9-e02e-451e-83ad-ec883ce4b6c3"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-64098c73-54f4-4fc7-9e58-5d0e47d92f00" ><span id="id-64098c73-54f4-4fc7-9e58-5d0e47d92f00"><img id="img-id-64098c73-54f4-4fc7-9e58-5d0e47d92f00" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00013_frag_00001" data-state="slide_00013_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Cross Validation</h1>
+
+<div class="jb-text">
+<p>So far, the accuracy scores are only meaningful for debugging, that is making sure that 
+your code does not crash</p>
+<p>Next, we want to make sure we can evaluate the performance correctly, using either hold-out
+or k-fold cross validation</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-ead22250-065d-4018-b1f4-e01c19cffbad" ><span id="id-ead22250-065d-4018-b1f4-e01c19cffbad"><img id="img-id-ead22250-065d-4018-b1f4-e01c19cffbad"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-9d279785-6169-49c8-8741-98128a5ae8f6" ><span id="id-9d279785-6169-49c8-8741-98128a5ae8f6"><img id="img-id-9d279785-6169-49c8-8741-98128a5ae8f6" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00014_frag_00001" data-state="slide_00014_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+[0.72 0.64 0.72 0.56]
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-b8b02f56-4d4d-44a6-8e2d-75f3f9f3459d" ><span id="id-b8b02f56-4d4d-44a6-8e2d-75f3f9f3459d"><img id="img-id-b8b02f56-4d4d-44a6-8e2d-75f3f9f3459d"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-ba1d3b6b-a3ac-4047-923e-1a41bcb2d3e7" ><span id="id-ba1d3b6b-a3ac-4047-923e-1a41bcb2d3e7"><img id="img-id-ba1d3b6b-a3ac-4047-923e-1a41bcb2d3e7" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00015_frag_00001" data-state="slide_00015_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>N_DIM <span style="color: #666666">=</span> <span style="color: #666666">3</span>
+
+Xs_ext <span style="color: #666666">=</span> np<span style="color: #666666">.</span>zeros( ( <span style="color: #008000">len</span>(Xs), <span style="color: #666666">1</span> <span style="color: #666666">+</span> <span style="color: #666666">2</span> <span style="color: #666666">*</span> N_DIM ) )
+Xs_ext[:,<span style="color: #666666">0</span>] <span style="color: #666666">=</span> <span style="color: #666666">1.0</span>
+
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>(N_DIM):
+  Xs_ext[:,<span style="color: #666666">1</span> <span style="color: #666666">+</span> <span style="color: #666666">2*</span>i] <span style="color: #666666">=</span> Xs[:,<span style="color: #666666">0</span>] <span style="color: #666666">**</span> i
+  Xs_ext[:,<span style="color: #666666">1</span> <span style="color: #666666">+</span> <span style="color: #666666">2*</span>i <span style="color: #666666">+</span> <span style="color: #666666">1</span>] <span style="color: #666666">=</span> Xs[:,<span style="color: #666666">1</span>] <span style="color: #666666">**</span> i
+
+clf <span style="color: #666666">=</span> LogisticRegression()
+clf<span style="color: #666666">.</span>fit( Xs_ext, Ys)
+Ys_predict <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs_ext )
+acc <span style="color: #666666">=</span> accuracy_score( Ys, Ys_predict )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;Accuracy:&#39;</span>, acc )
+
+class_0 <span style="color: #666666">=</span> <span style="color: #008000">len</span>( Ys[ Ys <span style="color: #666666">==</span> <span style="color: #666666">0</span>] )
+class_1 <span style="color: #666666">=</span> <span style="color: #008000">len</span>( Ys[ Ys <span style="color: #666666">==</span> <span style="color: #666666">1</span>] )
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+Accuracy: 0.93
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-3b5d47d0-0a68-4349-906f-dcba058310a2" ><span id="id-3b5d47d0-0a68-4349-906f-dcba058310a2"><img id="img-id-3b5d47d0-0a68-4349-906f-dcba058310a2"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-33aec943-1294-4e96-8cc9-accd4b70a2a3" ><span id="id-33aec943-1294-4e96-8cc9-accd4b70a2a3"><img id="img-id-33aec943-1294-4e96-8cc9-accd4b70a2a3" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00016_frag_00001" data-state="slide_00016_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+Ys_c <span style="color: #666666">=</span> []
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>( <span style="color: #008000">len</span>(Ys) ):
+  <span style="color: #008000; font-weight: bold">if</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;blue&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;red&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;green&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;yellow&#39;</span>
+  Ys_c<span style="color: #666666">.</span>append( col )
+    
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Error Analysis (2nd Order Poly)&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i4 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i4&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-e8af1fc6-2f73-413e-95b1-aa5cdec58172" ><span id="id-e8af1fc6-2f73-413e-95b1-aa5cdec58172"><img id="img-id-e8af1fc6-2f73-413e-95b1-aa5cdec58172"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-aed30042-b659-4bef-9c90-3db5c22f197d" ><span id="id-aed30042-b659-4bef-9c90-3db5c22f197d"><img id="img-id-aed30042-b659-4bef-9c90-3db5c22f197d" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00017_frag_00001" data-state="slide_00017_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Error Analysis (2nd Order Polynomial)</h1>
+
+<span id="id-25c7a2ea-78c8-4cea-8327-b0eacb20a0be" ><span id="id-25c7a2ea-78c8-4cea-8327-b0eacb20a0be"><img id="img-id-25c7a2ea-78c8-4cea-8327-b0eacb20a0be"     src="assets/images/i4.svg"/></span>
+</span>
+
+<div class="jb-text">
+<p></p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-9fbffe51-d6a8-46e3-9aff-b3ea2eb0ca32" ><span id="id-9fbffe51-d6a8-46e3-9aff-b3ea2eb0ca32"><img id="img-id-9fbffe51-d6a8-46e3-9aff-b3ea2eb0ca32"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-ff4383c2-2110-4f94-ba88-aa877097d0d0" ><span id="id-ff4383c2-2110-4f94-ba88-aa877097d0d0"><img id="img-id-ff4383c2-2110-4f94-ba88-aa877097d0d0" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00018_frag_00001" data-state="slide_00018_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.model_selection</span> <span style="color: #008000; font-weight: bold">import</span> cross_val_score
+
+scores <span style="color: #666666">=</span> cross_val_score( clf, Xs_ext, Ys, cv<span style="color: #666666">=4</span> )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;accuracy&#39;</span>, np<span style="color: #666666">.</span>mean( scores), scores)
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+accuracy 0.91 [1.   1.   1.   0.64]
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-7d627d12-a3b4-4677-bea7-12b01c25cbeb" ><span id="id-7d627d12-a3b4-4677-bea7-12b01c25cbeb"><img id="img-id-7d627d12-a3b4-4677-bea7-12b01c25cbeb"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-64cce82d-a1b9-4273-8bd9-c2b3eb952ef4" ><span id="id-64cce82d-a1b9-4273-8bd9-c2b3eb952ef4"><img id="img-id-64cce82d-a1b9-4273-8bd9-c2b3eb952ef4" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00019_frag_00001" data-state="slide_00019_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Leaking Training Data</h1>
+
+<div class="jb-text">
+<p>As can be seen, there is a high variance in the cross validation performance</p>
+<p>This should give you pause for concern. Something fishy is going on</p>
+</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-bef4681e-1c05-485e-81f4-5c7cca29ed7b" ><span id="id-bef4681e-1c05-485e-81f4-5c7cca29ed7b"><img id="img-id-bef4681e-1c05-485e-81f4-5c7cca29ed7b"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-1609bb9b-49e1-4b1a-8b8a-8168a4d4eb8a" ><span id="id-1609bb9b-49e1-4b1a-8b8a-8168a4d4eb8a"><img id="img-id-1609bb9b-49e1-4b1a-8b8a-8168a4d4eb8a" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00020_frag_00001" data-state="slide_00020_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Generation of Training Data</h1>
+
+<div class="jb-text">
+<p>The following code was used to generate the training data</p>
+<p>
+<code>
+<pre>
+
+n_features = 2
+n_points = 50
+
+c, r = np.array( [ -2, 1 ] ), 1.5
+
+Xs1 = ( np.random.random( (n_points, 2 ) ) - 0.5 ) * 10
+Xs2 = ( np.random.random( (n_points, 2 ) )  ) * 3 + c - [r,r]
+Xs = np.vstack( ( Xs1, Xs2 ) )
+
+</pre>
+</code>
+</p>
+<p>It is <b>extremely</b> important that the training data and the test data are uncorrelated</p> 
+<p>This correlation could be due to ordering, selection of training data, ...</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-ff6a8fcb-8fb9-4c86-9497-e085eeaaa693" ><span id="id-ff6a8fcb-8fb9-4c86-9497-e085eeaaa693"><img id="img-id-ff6a8fcb-8fb9-4c86-9497-e085eeaaa693"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-1dbbf045-4f8f-4832-b139-65b51618db9a" ><span id="id-1dbbf045-4f8f-4832-b139-65b51618db9a"><img id="img-id-1dbbf045-4f8f-4832-b139-65b51618db9a" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00021_frag_00001" data-state="slide_00021_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.model_selection</span> <span style="color: #008000; font-weight: bold">import</span> cross_val_score
+
+scores <span style="color: #666666">=</span> cross_val_score( clf, Xs_ext, Ys, cv<span style="color: #666666">=4</span> )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;accuracy&#39;</span>, np<span style="color: #666666">.</span>mean( scores), scores)
+
+clf <span style="color: #666666">=</span> LogisticRegression()
+clf<span style="color: #666666">.</span>fit( Xs_ext, Ys )
+
+fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+Ys_c <span style="color: #666666">=</span> []
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>( <span style="color: #008000">len</span>(Ys) ):
+  <span style="color: #008000; font-weight: bold">if</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;blue&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;red&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;green&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;yellow&#39;</span>
+  Ys_c<span style="color: #666666">.</span>append( col )
+    
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Error Analysis (2nd Order Poly)&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i20 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i20&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+accuracy 0.9 [0.92 0.92 0.8  0.96]
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-46519413-d09a-4ea8-b6c3-7c5d2c126928" ><span id="id-46519413-d09a-4ea8-b6c3-7c5d2c126928"><img id="img-id-46519413-d09a-4ea8-b6c3-7c5d2c126928"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-79af5653-fe7d-43e7-a775-774ee1630f36" ><span id="id-79af5653-fe7d-43e7-a775-774ee1630f36"><img id="img-id-79af5653-fe7d-43e7-a775-774ee1630f36" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00022_frag_00001" data-state="slide_00022_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<span id="id-6fcc3e63-3301-45c7-b711-b770b061e675" ><span id="id-6fcc3e63-3301-45c7-b711-b770b061e675"><img id="img-id-6fcc3e63-3301-45c7-b711-b770b061e675"     src="assets/images/i20.svg"/></span>
+</span>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-66550b7c-d971-48bb-8ea5-071ccd0b7978" ><span id="id-66550b7c-d971-48bb-8ea5-071ccd0b7978"><img id="img-id-66550b7c-d971-48bb-8ea5-071ccd0b7978"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-a6f4be00-3200-477a-897a-a09ce46ea2f5" ><span id="id-a6f4be00-3200-477a-897a-a09ce46ea2f5"><img id="img-id-a6f4be00-3200-477a-897a-a09ce46ea2f5" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00023_frag_00001" data-state="slide_00023_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Leaking Training Data</h1>
+
+<div class="jb-text">
+<p>After shuffling the training data, the performance estimate is much more realistic</p>
+<p>In order to estimate the generlization performance over multiple runs, we often 
+necessary to split the data into three sets, not just two sets: training data, testing data, 
+validation data</p>
+<p>All sets should be uncorrelated</p>
+<p>Validation data allows us to answer questions like: How often will you be able to learn
+a 90% accurate classifier, given this domain</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-4344485e-321e-4934-8923-19c784baa031" ><span id="id-4344485e-321e-4934-8923-19c784baa031"><img id="img-id-4344485e-321e-4934-8923-19c784baa031"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-26028b2b-9387-428e-8fe5-b364f3b5636d" ><span id="id-26028b2b-9387-428e-8fe5-b364f3b5636d"><img id="img-id-26028b2b-9387-428e-8fe5-b364f3b5636d" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00024_frag_00001" data-state="slide_00024_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.svm</span> <span style="color: #008000; font-weight: bold">import</span> SVC
+
+clf <span style="color: #666666">=</span> SVC()
+clf<span style="color: #666666">.</span>fit( Xs, Ys)
+Ys_predict <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-e8e30b29-0660-4ba6-902e-964e19f8041b" ><span id="id-e8e30b29-0660-4ba6-902e-964e19f8041b"><img id="img-id-e8e30b29-0660-4ba6-902e-964e19f8041b"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-9edc2887-41c6-4f3a-9b7d-26c3439da5ab" ><span id="id-9edc2887-41c6-4f3a-9b7d-26c3439da5ab"><img id="img-id-9edc2887-41c6-4f3a-9b7d-26c3439da5ab" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00025_frag_00001" data-state="slide_00025_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.model_selection</span> <span style="color: #008000; font-weight: bold">import</span> cross_val_score
+
+scores <span style="color: #666666">=</span> cross_val_score( clf, Xs, Ys, cv<span style="color: #666666">=4</span> )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;accuracy&#39;</span>, np<span style="color: #666666">.</span>mean( scores), scores)
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+accuracy 0.8999999999999999 [0.96 0.96 0.8  0.88]
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-f2ed7a33-24db-4c93-93c2-9e24a34af432" ><span id="id-f2ed7a33-24db-4c93-93c2-9e24a34af432"><img id="img-id-f2ed7a33-24db-4c93-93c2-9e24a34af432"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-8c9d0674-6cde-48c5-af12-cce0e7279458" ><span id="id-8c9d0674-6cde-48c5-af12-cce0e7279458"><img id="img-id-8c9d0674-6cde-48c5-af12-cce0e7279458" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00026_frag_00001" data-state="slide_00026_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+clf<span style="color: #666666">.</span>fit( Xs, Ys )
+Ys_pred <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+
+Ys_c <span style="color: #666666">=</span> []
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>( <span style="color: #008000">len</span>(Ys) ):
+  <span style="color: #008000; font-weight: bold">if</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;blue&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;red&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;green&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;yellow&#39;</span>
+  Ys_c<span style="color: #666666">.</span>append( col )
+    
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Error Analysis (SVM kernel=rbf)&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i21 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i21&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-d63d8d0d-0893-41c5-bb6c-e5dbe37fe056" ><span id="id-d63d8d0d-0893-41c5-bb6c-e5dbe37fe056"><img id="img-id-d63d8d0d-0893-41c5-bb6c-e5dbe37fe056"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-b420bbcb-1f3d-47e2-a269-428d6142ee1d" ><span id="id-b420bbcb-1f3d-47e2-a269-428d6142ee1d"><img id="img-id-b420bbcb-1f3d-47e2-a269-428d6142ee1d" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00027_frag_00001" data-state="slide_00027_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Support Vector Machines</h1>
+
+<span id="id-77521355-0645-4ca3-a759-d705a80a1dca" ><span id="id-77521355-0645-4ca3-a759-d705a80a1dca"><img id="img-id-77521355-0645-4ca3-a759-d705a80a1dca"     src="assets/images/i21.svg"/></span>
+</span>
+
+
+<div class="jb-text">
+
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-fe4cf938-1412-4a1b-9de5-4ed1a4981db8" ><span id="id-fe4cf938-1412-4a1b-9de5-4ed1a4981db8"><img id="img-id-fe4cf938-1412-4a1b-9de5-4ed1a4981db8"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-b01691e2-461e-493e-a17a-8b290770a31d" ><span id="id-b01691e2-461e-493e-a17a-8b290770a31d"><img id="img-id-b01691e2-461e-493e-a17a-8b290770a31d" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00028_frag_00001" data-state="slide_00028_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>clf <span style="color: #666666">=</span> SVC( kernel<span style="color: #666666">=</span><span style="color: #BA2121">&quot;poly&quot;</span>, degree<span style="color: #666666">=6</span> )
+clf<span style="color: #666666">.</span>fit( Xs, Ys)
+Ys_predict <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-b713e5e2-db27-4b85-9fd6-a114cd7083bb" ><span id="id-b713e5e2-db27-4b85-9fd6-a114cd7083bb"><img id="img-id-b713e5e2-db27-4b85-9fd6-a114cd7083bb"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-16078e1e-2e4a-45ab-89cb-730a98a941df" ><span id="id-16078e1e-2e4a-45ab-89cb-730a98a941df"><img id="img-id-16078e1e-2e4a-45ab-89cb-730a98a941df" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00029_frag_00001" data-state="slide_00029_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.model_selection</span> <span style="color: #008000; font-weight: bold">import</span> cross_val_score
+
+scores <span style="color: #666666">=</span> cross_val_score( clf, Xs, Ys, cv<span style="color: #666666">=4</span> )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;accuracy&#39;</span>, np<span style="color: #666666">.</span>mean( scores), scores)
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+accuracy 0.8 [0.8  0.76 0.76 0.88]
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-218bfa4e-c66d-46bc-8a54-cc08e64a1430" ><span id="id-218bfa4e-c66d-46bc-8a54-cc08e64a1430"><img id="img-id-218bfa4e-c66d-46bc-8a54-cc08e64a1430"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-b243c6b0-e1ca-43c0-9f6e-89a0249533db" ><span id="id-b243c6b0-e1ca-43c0-9f6e-89a0249533db"><img id="img-id-b243c6b0-e1ca-43c0-9f6e-89a0249533db" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00030_frag_00001" data-state="slide_00030_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+clf<span style="color: #666666">.</span>fit( Xs, Ys )
+Ys_pred <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+
+Ys_c <span style="color: #666666">=</span> []
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>( <span style="color: #008000">len</span>(Ys) ):
+  <span style="color: #008000; font-weight: bold">if</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;blue&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;red&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;green&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;yellow&#39;</span>
+  Ys_c<span style="color: #666666">.</span>append( col )
+    
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Error Analysis (SVM kernel=poly)&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i22 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i22&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-73c5ee45-3088-47a1-a7c6-c30b8366dcad" ><span id="id-73c5ee45-3088-47a1-a7c6-c30b8366dcad"><img id="img-id-73c5ee45-3088-47a1-a7c6-c30b8366dcad"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-b24cb72d-9ef1-45f8-956c-bd8796142e49" ><span id="id-b24cb72d-9ef1-45f8-956c-bd8796142e49"><img id="img-id-b24cb72d-9ef1-45f8-956c-bd8796142e49" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00031_frag_00001" data-state="slide_00031_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<span id="id-94c47b26-51d1-4db5-90e8-b2a98a8c2a3b" ><span id="id-94c47b26-51d1-4db5-90e8-b2a98a8c2a3b"><img id="img-id-94c47b26-51d1-4db5-90e8-b2a98a8c2a3b"     src="assets/images/i22.svg"/></span>
+</span>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-cb4f019b-87f3-405d-aee0-0f45659fe5f5" ><span id="id-cb4f019b-87f3-405d-aee0-0f45659fe5f5"><img id="img-id-cb4f019b-87f3-405d-aee0-0f45659fe5f5"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-ee84c5f9-6cc0-44e8-b35e-ee2d391de1f5" ><span id="id-ee84c5f9-6cc0-44e8-b35e-ee2d391de1f5"><img id="img-id-ee84c5f9-6cc0-44e8-b35e-ee2d391de1f5" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00032_frag_00001" data-state="slide_00032_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.tree</span> <span style="color: #008000; font-weight: bold">import</span> DecisionTreeClassifier
+
+clf <span style="color: #666666">=</span> DecisionTreeClassifier( )
+clf<span style="color: #666666">.</span>fit( Xs, Ys )
+Ys_predict <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-e6d745b4-f5e5-4289-a6cc-52462bf93e58" ><span id="id-e6d745b4-f5e5-4289-a6cc-52462bf93e58"><img id="img-id-e6d745b4-f5e5-4289-a6cc-52462bf93e58"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-c552b81d-c405-4f16-bf56-439ea2b0e793" ><span id="id-c552b81d-c405-4f16-bf56-439ea2b0e793"><img id="img-id-c552b81d-c405-4f16-bf56-439ea2b0e793" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00033_frag_00001" data-state="slide_00033_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">sklearn.model_selection</span> <span style="color: #008000; font-weight: bold">import</span> cross_val_score
+
+scores <span style="color: #666666">=</span> cross_val_score( clf, Xs, Ys, cv<span style="color: #666666">=4</span> )
+<span style="color: #008000">print</span>(<span style="color: #BA2121">&#39;accuracy&#39;</span>, np<span style="color: #666666">.</span>mean( scores), scores)
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+<div class="jb-print jb-render">
+<div class="jb-output jb-render code" style="text-align:center">
+<div class="jb-stdout code" style="display:inline-block; width:90%">
+<pre >
+accuracy 0.8999999999999999 [0.88 0.96 0.84 0.92]
+</pre>
+</div>
+</div>
+
+</div><!-- end of jb-print jb-render -->
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-b28c87b7-326f-4243-b218-7041b419a19d" ><span id="id-b28c87b7-326f-4243-b218-7041b419a19d"><img id="img-id-b28c87b7-326f-4243-b218-7041b419a19d"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-c42e882f-e45f-4277-a1e5-a98f5cd72801" ><span id="id-c42e882f-e45f-4277-a1e5-a98f5cd72801"><img id="img-id-c42e882f-e45f-4277-a1e5-a98f5cd72801" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00034_frag_00001" data-state="slide_00034_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+<div class="jb-input jb-render jb-code" style="text-align:center">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-input-code jb-render">
+<div class="highlight" style="background: #f8f8f8; color:#101010;display=inline-block;"><pre style="line-height: 125%"><span></span>fig <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>figure( )
+ax1 <span style="color: #666666">=</span> fig<span style="color: #666666">.</span>add_subplot( <span style="color: #666666">1</span>, <span style="color: #666666">1</span>, <span style="color: #666666">1</span> )
+
+clf<span style="color: #666666">.</span>fit( Xs, Ys )
+Ys_pred <span style="color: #666666">=</span> clf<span style="color: #666666">.</span>predict( Xs )
+
+Ys_c <span style="color: #666666">=</span> []
+<span style="color: #008000; font-weight: bold">for</span> i <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">range</span>( <span style="color: #008000">len</span>(Ys) ):
+  <span style="color: #008000; font-weight: bold">if</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;blue&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;red&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;green&#39;</span>
+  <span style="color: #008000; font-weight: bold">elif</span> ( Ys[i] <span style="color: #666666">==</span> <span style="color: #666666">1</span> <span style="color: #AA22FF; font-weight: bold">and</span> Ys_predict[i] <span style="color: #666666">==</span> <span style="color: #666666">0</span> ):
+      col <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;yellow&#39;</span>
+  Ys_c<span style="color: #666666">.</span>append( col )
+    
+ax1<span style="color: #666666">.</span>scatter( Xs[:,<span style="color: #666666">0</span>], Xs[:, <span style="color: #666666">1</span>], <span style="color: #666666">20</span>, c<span style="color: #666666">=</span>Ys_c )
+ax1<span style="color: #666666">.</span>set_title(<span style="color: #BA2121">&quot;Error Analysis (Decision Tree)&quot;</span>)
+ax1<span style="color: #666666">.</span>set_xlabel(<span style="color: #BA2121">&quot;x1&quot;</span>)
+ax1<span style="color: #666666">.</span>set_ylabel(<span style="color: #BA2121">&quot;x2&quot;</span>)
+
+i23 <span style="color: #666666">=</span> addJBFigure(<span style="color: #BA2121">&quot;i23&quot;</span>, <span style="color: #666666">0</span>, <span style="color: #666666">0</span>, fig )
+plt<span style="color: #666666">.</span>close()
+</pre></div>
+
+</div><!-- end of jb-input-code jb-render -->
+
+</div>
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-95343abf-224d-4b55-9368-72e350654ce8" ><span id="id-95343abf-224d-4b55-9368-72e350654ce8"><img id="img-id-95343abf-224d-4b55-9368-72e350654ce8"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-0d7df552-8116-47fc-ada0-fb0e4bb91797" ><span id="id-0d7df552-8116-47fc-ada0-fb0e4bb91797"><img id="img-id-0d7df552-8116-47fc-ada0-fb0e4bb91797" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00035_frag_00001" data-state="slide_00035_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<span id="id-5d11c5e9-06e4-4b96-8718-19827e62b81a" ><span id="id-5d11c5e9-06e4-4b96-8718-19827e62b81a"><img id="img-id-5d11c5e9-06e4-4b96-8718-19827e62b81a"     src="assets/images/i23.svg"/></span>
+</span>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-866befc9-ae13-4493-b7a4-f44d695767f8" ><span id="id-866befc9-ae13-4493-b7a4-f44d695767f8"><img id="img-id-866befc9-ae13-4493-b7a4-f44d695767f8"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-f1e12786-f1a0-40c6-b714-136693adea06" ><span id="id-f1e12786-f1a0-40c6-b714-136693adea06"><img id="img-id-f1e12786-f1a0-40c6-b714-136693adea06" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+<section id="slide_00036_frag_00001" data-state="slide_00036_frag_00001">
+
+
+<!-- Header -->
+  
+
+<!-- Background -->
+
+
+<!-- Slide -->
+<div class="jb-slide">
+
+<div class="jb-output-code jb-render">
+
+<!-- start embedded style -->
+
+<!-- end embedded style -->
+<div class="jb-output jb-render">
+
+<h1>Conclusion</h1>
+
+<div class="jb-text">
+<p>The generalization ability of the various algorithms is pretty similar (tested using cross-validation)</p>
+<p>In the late 90's, a lot of work was done to try and find the best machine learning algorithm. 
+For some domains, there may be algorithms that perform very well, but over a large range of domains
+the performance is often very similar</p>
+<p>The most important change in our small study was the realization that the training and test datasets
+were correlated using cross-validation</p>
+<p>Nowadays, we realize that the most important aspect of a ML system is the training data, both quantity
+and quality of the data</p>
+</div>
+</div><!-- end of jb-output jb-render -->
+</div><!-- end of jb-output-code jb-render -->
+
+
+</div>
+<!-- Footer -->
+
+<div class="jb-footer-left plain">
+    <span id="id-d7837fff-36d6-4bcc-aa02-b1e04f32f7f0" ><span id="id-d7837fff-36d6-4bcc-aa02-b1e04f32f7f0"><img id="img-id-d7837fff-36d6-4bcc-aa02-b1e04f32f7f0"     src="assets/images/logo.png"/></span>
+</span>
+
+</div>
+<div class="jb-footer-right plain">
+    <span id="id-feedb1cd-7125-4bce-8822-08725f86ec8f" ><span id="id-feedb1cd-7125-4bce-8822-08725f86ec8f"><img id="img-id-feedb1cd-7125-4bce-8822-08725f86ec8f" width="162" height="138"   src="assets/images/robbi.png"/></span>
+</span>
+
+</div>
+
+<aside class="notes">
+
+</aside>
+
+
+
+</section>
+        </div>
+        </div>
+
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                math: {
+                    mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+                    config: 'TeX-AMS_HTML-full',  // See http://docs.mathjax.org/en/latest/config-files.html
+                    // tex2jax: {
+                    //     inlineMath: [['$', '$'], ['\(', '\)']],
+                    //     displayMath: [['$$', '$$'], ['\[', '\]']],
+                    //     processEscapes: true,
+                    //     processEnvironments: true,
+                    //     skipTags: ['script', 'noscript', 'style', 'textarea', 'code', 'pre'],
+                    //     displayAlign: 'center',
+                    // }                
+                },
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/math/math.js', async: true }
+                ]
+            });
+        </script>
+
+        <script>
+            <!-- Assets -->
+var assets = {
+"robbi" : new JBImage( "robbi", "12677", "162", "138", null, null, "assets/images/robbi", "png" ),
+"logo" : new JBImage( "logo", "12033", "0", "0", null, null, "assets/images/logo", "png" ),
+"fira-logo-1" : new JBImage( "fira-logo-1", "93836", "0", "0", null, null, "assets/images/FIRA-logo-1", "png" ),
+"pairLogo" : new JBImage( "pairLogo", "63051", "0", "0", null, null, "assets/images/pairLogo", "png" ),
+"i1" : new JBImage( "i1", "23925", "0", "0", null, null, "assets/images/i1", "svg" ),
+"i2" : new JBImage( "i2", "35555", "0", "0", null, null, "assets/images/i2", "svg" ),
+"i3" : new JBImage( "i3", "30930", "0", "0", null, null, "assets/images/i3", "svg" ),
+"i4" : new JBImage( "i4", "35478", "0", "0", null, null, "assets/images/i4", "svg" ),
+"i20" : new JBImage( "i20", "35478", "0", "0", null, null, "assets/images/i20", "svg" ),
+"i21" : new JBImage( "i21", "36689", "0", "0", null, null, "assets/images/i21", "svg" ),
+"i22" : new JBImage( "i22", "36302", "0", "0", null, null, "assets/images/i22", "svg" ),
+"i23" : new JBImage( "i23", "34750", "0", "0", null, null, "assets/images/i23", "svg" ) 
+};
+var assetInstances = {
+    "id-5f701a32-8826-45e5-a5cf-e427032e1b9d": assets["robbi"],
+    "id-0599fd55-38a9-48cd-81aa-0a1bcaa401e8": assets["robbi"],
+    "id-5de4571b-5daa-410d-9ed2-400cd2b3ac29": assets["robbi"],
+    "id-3be53895-5fd0-4909-8063-4f32e22b8239": assets["robbi"],
+    "id-5c5ebf24-47d8-4f01-8f76-d92bfc402fe6": assets["robbi"],
+    "id-b8058aa3-1d7d-474f-8e9e-b2ea4a8ec890": assets["robbi"],
+    "id-a7c37917-9ae5-42c6-9f11-2f754347f3ca": assets["robbi"],
+    "id-149e21d4-0136-4891-b0ab-d0d361c10f76": assets["robbi"],
+    "id-5a824224-6994-4b8b-be36-9adb901e599e": assets["robbi"],
+    "id-81d48fd7-3c66-47f1-a725-4620d2643388": assets["robbi"],
+    "id-64098c73-54f4-4fc7-9e58-5d0e47d92f00": assets["robbi"],
+    "id-9d279785-6169-49c8-8741-98128a5ae8f6": assets["robbi"],
+    "id-ba1d3b6b-a3ac-4047-923e-1a41bcb2d3e7": assets["robbi"],
+    "id-33aec943-1294-4e96-8cc9-accd4b70a2a3": assets["robbi"],
+    "id-aed30042-b659-4bef-9c90-3db5c22f197d": assets["robbi"],
+    "id-ff4383c2-2110-4f94-ba88-aa877097d0d0": assets["robbi"],
+    "id-64cce82d-a1b9-4273-8bd9-c2b3eb952ef4": assets["robbi"],
+    "id-1609bb9b-49e1-4b1a-8b8a-8168a4d4eb8a": assets["robbi"],
+    "id-1dbbf045-4f8f-4832-b139-65b51618db9a": assets["robbi"],
+    "id-79af5653-fe7d-43e7-a775-774ee1630f36": assets["robbi"],
+    "id-a6f4be00-3200-477a-897a-a09ce46ea2f5": assets["robbi"],
+    "id-26028b2b-9387-428e-8fe5-b364f3b5636d": assets["robbi"],
+    "id-9edc2887-41c6-4f3a-9b7d-26c3439da5ab": assets["robbi"],
+    "id-8c9d0674-6cde-48c5-af12-cce0e7279458": assets["robbi"],
+    "id-b420bbcb-1f3d-47e2-a269-428d6142ee1d": assets["robbi"],
+    "id-b01691e2-461e-493e-a17a-8b290770a31d": assets["robbi"],
+    "id-16078e1e-2e4a-45ab-89cb-730a98a941df": assets["robbi"],
+    "id-b243c6b0-e1ca-43c0-9f6e-89a0249533db": assets["robbi"],
+    "id-b24cb72d-9ef1-45f8-956c-bd8796142e49": assets["robbi"],
+    "id-ee84c5f9-6cc0-44e8-b35e-ee2d391de1f5": assets["robbi"],
+    "id-c552b81d-c405-4f16-bf56-439ea2b0e793": assets["robbi"],
+    "id-c42e882f-e45f-4277-a1e5-a98f5cd72801": assets["robbi"],
+    "id-0d7df552-8116-47fc-ada0-fb0e4bb91797": assets["robbi"],
+    "id-f1e12786-f1a0-40c6-b714-136693adea06": assets["robbi"],
+    "id-feedb1cd-7125-4bce-8822-08725f86ec8f": assets["robbi"],
+    "id-54b272cb-3ca7-4a10-9c4e-8a7758b0b647": assets["logo"],
+    "id-46b3442d-9bc9-43e8-8ceb-5c197323f605": assets["logo"],
+    "id-f0ab6972-cf3f-4d47-a4dd-0d81a3e1a994": assets["logo"],
+    "id-224e42a7-2fda-4724-8adc-fe84fd8c07f8": assets["logo"],
+    "id-58076079-58d3-4404-8387-1694e527acd0": assets["logo"],
+    "id-3293f22b-1767-4768-8f10-447183c2e55b": assets["logo"],
+    "id-0deba477-5668-4dd8-b5c1-5a99cfba2b1a": assets["logo"],
+    "id-a9a64373-b34f-478f-bd14-a2c48298495c": assets["logo"],
+    "id-58920c08-96aa-41de-b2ad-2f0c23a9ad5c": assets["logo"],
+    "id-261db3b9-1fb8-4f1f-8c25-ea76800e9b1a": assets["logo"],
+    "id-5d19b5d9-e02e-451e-83ad-ec883ce4b6c3": assets["logo"],
+    "id-ead22250-065d-4018-b1f4-e01c19cffbad": assets["logo"],
+    "id-b8b02f56-4d4d-44a6-8e2d-75f3f9f3459d": assets["logo"],
+    "id-3b5d47d0-0a68-4349-906f-dcba058310a2": assets["logo"],
+    "id-e8af1fc6-2f73-413e-95b1-aa5cdec58172": assets["logo"],
+    "id-9fbffe51-d6a8-46e3-9aff-b3ea2eb0ca32": assets["logo"],
+    "id-7d627d12-a3b4-4677-bea7-12b01c25cbeb": assets["logo"],
+    "id-bef4681e-1c05-485e-81f4-5c7cca29ed7b": assets["logo"],
+    "id-ff6a8fcb-8fb9-4c86-9497-e085eeaaa693": assets["logo"],
+    "id-46519413-d09a-4ea8-b6c3-7c5d2c126928": assets["logo"],
+    "id-66550b7c-d971-48bb-8ea5-071ccd0b7978": assets["logo"],
+    "id-4344485e-321e-4934-8923-19c784baa031": assets["logo"],
+    "id-e8e30b29-0660-4ba6-902e-964e19f8041b": assets["logo"],
+    "id-f2ed7a33-24db-4c93-93c2-9e24a34af432": assets["logo"],
+    "id-d63d8d0d-0893-41c5-bb6c-e5dbe37fe056": assets["logo"],
+    "id-fe4cf938-1412-4a1b-9de5-4ed1a4981db8": assets["logo"],
+    "id-b713e5e2-db27-4b85-9fd6-a114cd7083bb": assets["logo"],
+    "id-218bfa4e-c66d-46bc-8a54-cc08e64a1430": assets["logo"],
+    "id-73c5ee45-3088-47a1-a7c6-c30b8366dcad": assets["logo"],
+    "id-cb4f019b-87f3-405d-aee0-0f45659fe5f5": assets["logo"],
+    "id-e6d745b4-f5e5-4289-a6cc-52462bf93e58": assets["logo"],
+    "id-b28c87b7-326f-4243-b218-7041b419a19d": assets["logo"],
+    "id-95343abf-224d-4b55-9368-72e350654ce8": assets["logo"],
+    "id-866befc9-ae13-4493-b7a4-f44d695767f8": assets["logo"],
+    "id-d7837fff-36d6-4bcc-aa02-b1e04f32f7f0": assets["logo"],
+    "id-f1846147-1bc2-4368-a1bf-d8c54de3b4d3": assets["i1"],
+    "id-604e1cec-e96e-4802-9264-4091c6abc3e6": assets["i2"],
+    "id-27c09d4e-ffed-4a82-b1e0-46f6a3a36c0d": assets["i3"],
+    "id-25c7a2ea-78c8-4cea-8327-b0eacb20a0be": assets["i4"],
+    "id-6fcc3e63-3301-45c7-b711-b770b061e675": assets["i20"],
+    "id-77521355-0645-4ca3-a759-d705a80a1dca": assets["i21"],
+    "id-94c47b26-51d1-4db5-90e8-b2a98a8c2a3b": assets["i22"],
+    "id-5d11c5e9-06e4-4b96-8718-19827e62b81a": assets["i23"]
+};
+<!-- End of Assets -->
+
+            convertURLs(assetInstances, "smart-path");
+        </script>
+        <script>
+            <!-- Characters -->
+var characters =
+{};
+<!-- End of Characters -->
+
+        </script>
+    </body>
+</html>
